@@ -11,6 +11,11 @@ header {
     padding: 20px;
     text-align: center;
 }
+p {
+    font-size: 16px; /* Restaurar o tamanho do texto */
+    color: #333; /* Restaurar a cor do texto */
+    line-height: 1.6; /* Restaurar o espaçamento entre linhas */
+}
 nav {
     background-color: #333;
     padding: 10px;
@@ -27,19 +32,26 @@ nav a {
 nav a:hover {
     text-decoration: underline;
 }
-section {
+section  {
     padding: 20px;
     margin: 20px 0;
     background-color: white;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
+.titulo-secao i {
+     margin-right: 10px;
+     color: #4CAF50;
+   
+}
 h2.titulo-secao{
     font-size: 24px;
     color: #333;
     margin-bottom: 15px;
-    border-bottom: 3px solid #964caf;
+    border-bottom: 2px solid #4CAF50;
     padding-bottom: 10px;
+    display: flex;
+    align-items: center;
 }
 .exercicios ul {
     list-style-type: none;
