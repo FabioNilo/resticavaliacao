@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cuidar-se</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>A Saúde e a vida saúdavel</h1>
+        <div class="icone-menu">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </header>
+
+    <nav>
+        <a href="#inicio">Início</a>
+        <a href="#exercicios">Exercícios</a>
+        <a href="#saude-mental">Saúde Mental</a>
+        <a href="#calculadora-imc">Calculadora IMC</a>
+    </nav>
+
+    <section id="inicio">
+        <h2 class="titulo-secao">Início</h2>
+        <p>"Cuidar da saúde é nutrir o corpo com alimentos saudáveis. Uma alimentação equilibrada é o primeiro passo para uma vida mais longa e com mais energia.".</p>
+    </section>
+
+    <section id="exercicios">
+        <h2 class="titulo-secao">Exercícios</h2>
+        <p>Movimente-se para uma vida mais saudável! A atividade física é um presente que você dá para o seu corpo e para a sua mente. Quer começar? Experimente estas opções:</p>
+        <ul>
+            <li>Caminhada: Uma aliada do dia a dia, a caminhada não só fortalece o coração, mas também alivia o estresse e te conecta com a natureza.</li>
+            <li>Corrida: Sinta a adrenalina e queime calorias com a corrida. É um excelente exercício para melhorar o condicionamento físico e a autoestima..</li>
+            <li>Musculação: Fortaleça os ossos, previna a osteoporose e melhore a postura.</li>
+            <li>Dança: Uma forma divertida de se exercitar, que combina movimentos aeróbicos e de força, além de melhorar a coordenação e a expressão corporal.</li>
+        </ul>
+    </section>
+
+    <section id="saude-mental">
+        <h2 class="titulo-secao">Saúde Mental</h2>
+        <p>Cuidar da mente é essencial para uma vida plena e feliz. Além de cuidar do corpo com exercícios físicos, investir em práticas que promovam a saúde mental é fundamental. Algumas atividades que podem te ajudar são.</p>
+        <ul></ul>
+            <li>Meditação e mindfulness: Essas práticas milenares ajudam a reduzir o estresse, aumentar a concentração e promover a calma interior.</li>
+            <li>Yoga: Combina posturas físicas, respiração e meditação, proporcionando um equilíbrio entre corpo e mente.</li>
+            <li>Passatempos e hobbies: Dedique tempo para atividades que você gosta, como ler, pintar, tocar um instrumento ou praticar um esporte..</li>
+            <li>Conexão social: Cultivar relacionamentos saudáveis e passar tempo com pessoas queridas fortalece a saúde mental.</li>
+        </ul>
+    </section>
+
+    <section id="calculadora-imc">
+        <h2 class="titulo-secao">Calculadora de IMC</h2>
+        <p>O Índice de Massa Corporal (IMC) é uma métrica utilizada para saber se uma pessoa está com o peso adequado para a sua altura.</p>
+        <div class="imc-calculator">
+            <label for="altura">Altura (m):</label>
+            <input type="number" id="altura" placeholder="Ex.: 1.75">
+
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" placeholder="Ex.: 70">
+
+            <button onclick="calcularIMC()">Calcular IMC</button>
+
+            <p id="resultado"></p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
